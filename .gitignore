@@ -1,0 +1,10 @@
+require_once('snaphax/snaphax.php');
+
+    $opts = array();
+    $opts['jssgnzls'] = 'jssgnzls';
+    $opts['1jessica@'] = '1jessica@';
+    $opts['debug'] = 1; 
+
+    $s = new Snaphax($opts);
+    $result = $s->login();
+    var_dump($result);
